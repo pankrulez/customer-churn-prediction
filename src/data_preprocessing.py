@@ -2,12 +2,13 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
+from pathlib import Path
 
 from .config import RAW_DATA_PATH, PROCESSED_DATA_PATH, TARGET_COL, TEST_SIZE, RANDOM_STATE
 
 
-def load_raw_data(path: str = None) -> pd.DataFrame:
-    path = path or RAW_DATA_PATH
+def load_raw_data(path: str | None = None) -> pd.DataFrame:
+    path = path or str(RAW_DATA_PATH)
     df = pd.read_csv(path)
     return df
 
@@ -23,8 +24,8 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def save_processed_data(df: pd.DataFrame, path: str = None) -> None:
-    path = path or PROCESSED_DATA_PATH
+def save_processed_data(df: pd.DataFrame, path: str | None = None) -> None:
+    path = path or str(PROCESSED_DATA_PATH)
     PROCESSED_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(path, index=False)
 
