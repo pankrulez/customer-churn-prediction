@@ -100,8 +100,8 @@ A full ML pipeline was built using:
 
 Includes a helper function:
 
-```predict_single_customer()
-```
+predict_single_customer()
+
 This function:
 
 Accepts raw customer data as a dictionary
