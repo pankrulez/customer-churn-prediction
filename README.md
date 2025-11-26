@@ -100,8 +100,8 @@ A full ML pipeline was built using:
 
 Includes a helper function:
 
-```python
-predict_single_customer()
+```predict_single_customer()
+```
 This function:
 
 Accepts raw customer data as a dictionary
@@ -116,7 +116,7 @@ models/churn_pipeline_xgb.pkl
 
 ## 📁 Project Structure
 
-telco-churn-prediction/
+```telco-churn-prediction/
 │
 ├── data/
 │   ├── raw/
@@ -128,6 +128,7 @@ telco-churn-prediction/
 ├── reports/
 ├── README.md
 └── requirements.txt
+```
 
 ## 📈 Results Summary
 
