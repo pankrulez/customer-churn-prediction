@@ -132,10 +132,12 @@ models/churn_pipeline_xgb.pkl
 
 ## 📈 Results Summary
 
-Model	Accuracy	Precision	Recall	F1 Score	ROC-AUC
-Logistic Regression	~80%	Moderate	Low	Moderate	~0.84
-Random Forest	~85%	Good	Good	Good	~0.89
-XGBoost	~86%	High	High	High	~0.91
+| Model                | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|----------------------|----------|-----------|--------|----------|---------|
+| Logistic Regression  | ~80%     | Moderate  | Low    | Moderate | ~0.84   |
+| Random Forest        | ~85%     | Good      | Good   | Good     | ~0.89   |
+| XGBoost              | ~86%     | High      | High   | High     | ~0.91   |
+
 
 XGBoost selected as final model.
 
