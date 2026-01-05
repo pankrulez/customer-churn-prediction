@@ -164,10 +164,10 @@ This project demonstrates a real-world telecom churn pipeline with:
 
 - Scikit-Learn
 
-XGBoost
+- XGBoost
 
-SHAP
+- SHAP
 
-Matplotlib / Seaborn
+- Matplotlib / Seaborn
 
-Jupyter Notebook
+- Jupyter Notebook
