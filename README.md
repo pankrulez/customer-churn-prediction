@@ -98,21 +98,21 @@ A full ML pipeline was built using:
 - `XGBClassifier`  
 - `Pipeline`  
 
-Includes a helper function:
+**Includes a helper function:**
 
-predict_single_customer()
+`predict_single_customer()`
 
 This function:
 
-Accepts raw customer data as a dictionary
+- Accepts raw customer data as a dictionary
 
-Runs preprocessing + model
+- Runs preprocessing + model
 
-Outputs churn probability and label
+- Outputs churn probability and label
 
 The final model is saved as:
 
-models/churn_pipeline_xgb.pkl
+`models/churn_pipeline_xgb.pkl`
 
 ## 📁 Project Structure
 
@@ -139,32 +139,30 @@ models/churn_pipeline_xgb.pkl
 | XGBoost              | ~86%     | High      | High   | High     | ~0.91   |
 
 
-XGBoost selected as final model.
+- XGBoost selected as final model.
 
 ## 🏁 Conclusion
 This project demonstrates a real-world telecom churn pipeline with:
 
-Solid feature engineering
+- Solid feature engineering
 
-Strong machine learning modeling
+- Strong machine learning modeling
 
-Explainability with SHAP
+- Explainability with SHAP
 
-Production-style pipeline
+- Production-style pipeline
 
-Clean, modular folder structure
-
-Perfect for resumes, portfolios, and interviews.
+- Clean, modular folder structure
 
 ## 📌 Technologies Used
 
-Python
+- Python
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
-Scikit-Learn
+- Scikit-Learn
 
 XGBoost
 
