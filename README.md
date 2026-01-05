@@ -1,4 +1,4 @@
-# Customer Churn Prediction (Machine Learning Project)
+# Customer Churn Prediction
 
 This project predicts customer churn using the well-known **Telco Customer Churn** dataset from IBM.  
 It demonstrates a complete end-to-end data science workflow including **EDA, preprocessing, model training, evaluation, explainability, and a production-style prediction pipeline**.
