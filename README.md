@@ -1,13 +1,47 @@
-# Customer Churn Prediction
+# Customer Churn Prediction – End-to-End Machine Learning Project
 
-This project predicts customer churn using the well-known **Telco Customer Churn** dataset from IBM.  
-It demonstrates a complete end-to-end data science workflow including **EDA, preprocessing, model training, evaluation, explainability, and a production-style prediction pipeline**.
+## Overview
+This project demonstrates an **end-to-end machine learning workflow** for predicting customer churn in a subscription-based business context.  
+The focus is not only on model performance, but also on **clean pipelining, reproducibility, explainability, and stakeholder-ready reporting**.
+
+The repository is structured to reflect how a real data science project would be developed, reviewed, and extended in a professional environment.
 
 ---
 
-## 📌 Problem Statement
-Customer churn is one of the biggest revenue leaks for subscription-based businesses.  
-The objective of this project is to **build a machine learning model that predicts whether a customer will churn**, enabling proactive retention strategies.
+## Business Problem
+Customer churn directly impacts revenue and growth.  
+The goal of this project is to:
+- Predict whether a customer is likely to churn
+- Identify **key drivers of churn**
+- Enable **data-driven retention strategies**
+
+---
+
+## What This Project Showcases
+- Complete data science lifecycle (EDA → modeling → evaluation)
+- **Production-style ML pipeline** using preprocessing + model chaining
+- Multiple model comparison (Logistic Regression, Random Forest, XGBoost)
+- Use of **appropriate churn metrics** (ROC-AUC, Precision, Recall, F1)
+- **Model explainability using SHAP**
+- A **professional PDF report** summarizing insights for non-technical stakeholders
+
+---
+
+## 📁 Project Structure
+
+```telco-churn-prediction/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│
+├── notebooks/
+├── src/
+├── models/
+├── reports/
+├── README.md
+└── requirements.txt
+```
 
 ---
 
@@ -114,21 +148,7 @@ The final model is saved as:
 
 `models/churn_pipeline_xgb.pkl`
 
-## 📁 Project Structure
-
-```telco-churn-prediction/
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│
-├── notebooks/
-├── src/
-├── models/
-├── reports/
-├── README.md
-└── requirements.txt
-```
+---
 
 ## 📈 Results Summary
 
@@ -139,7 +159,9 @@ The final model is saved as:
 | XGBoost              | ~86%     | High      | High   | High     | ~0.91   |
 
 
-- XGBoost selected as final model.
+- **XGBoost** delivered the best overall performance and was selected as the final model.
+
+---
 
 ## 🏁 Conclusion
 This project demonstrates a real-world telecom churn pipeline with:
@@ -153,6 +175,8 @@ This project demonstrates a real-world telecom churn pipeline with:
 - Production-style pipeline
 
 - Clean, modular folder structure
+
+---
 
 ## 📌 Technologies Used
 
@@ -171,3 +195,21 @@ This project demonstrates a real-world telecom churn pipeline with:
 - Matplotlib / Seaborn
 
 - Jupyter Notebook
+
+---
+
+## How to Run
+```bash
+pip install -r requirements.txt
+python src/train.py
+```
+
+## Author
+Pankaj Kapri
+Data Science | Machine Learning | End-to-End ML Pipelines
+
+---
+
+## License
+
+This project is licensed under the MIT License.
