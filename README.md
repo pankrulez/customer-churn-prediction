@@ -2,7 +2,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![CI](https://github.com/pankrulez/customer-churn-prediction/actions/workflows/ci.yml/badge.svg)
 
 
 ## 📌 Overview
