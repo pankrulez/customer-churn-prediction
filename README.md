@@ -1,5 +1,10 @@
 # Customer Churn Prediction – End-to-End Machine Learning Project
 
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![CI](https://github.com/pankrulez/customer-churn-prediction/actions/workflows/ci.yml/badge.svg)
+
+
 ## 📌 Overview
 This project demonstrates an **end-to-end machine learning workflow** for predicting customer churn in a subscription-based business context.  
 The focus is not only on model performance, but also on **clean pipelining, reproducibility, explainability, and stakeholder-ready reporting**.
