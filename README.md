@@ -1,6 +1,6 @@
 # Customer Churn Prediction – End-to-End Machine Learning Project
 
-## Overview
+## 📌 Overview
 This project demonstrates an **end-to-end machine learning workflow** for predicting customer churn in a subscription-based business context.  
 The focus is not only on model performance, but also on **clean pipelining, reproducibility, explainability, and stakeholder-ready reporting**.
 
@@ -198,7 +198,7 @@ This project demonstrates a real-world telecom churn pipeline with:
 
 ---
 
-## How to Run
+## 🛠️ How to Run
 ```bash
 pip install -r requirements.txt
 python src/train.py
@@ -210,6 +210,6 @@ Data Science | Machine Learning | End-to-End ML Pipelines
 
 ---
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License.
